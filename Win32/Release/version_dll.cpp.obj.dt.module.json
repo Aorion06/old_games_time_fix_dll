@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Win32\\Release\\version_dll.obj",
+            "outputs": [
+                "Win32\\Release\\version_dll.cpp.obj.dt.module.json",
+                "Win32\\Release\\version_dll.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

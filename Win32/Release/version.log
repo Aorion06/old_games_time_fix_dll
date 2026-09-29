@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+     Creating library C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Release\version.lib and object C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Release\version.exp
+  Generating code
+  0 of 76 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  version.vcxproj -> C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Release\version.dll

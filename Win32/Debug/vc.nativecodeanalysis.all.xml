@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Tools\pseudo-version-dll-master\src\</FILEPATH>
+      <FILENAME>dllmain.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'GetSystemWow64DirectoryW'.</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::init</FUNCTION>
+    <DECORATED>?init@?A0x6f170810@@YAXPAUHINSTANCE__@@@Z</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

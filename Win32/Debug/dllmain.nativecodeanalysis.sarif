@@ -1,0 +1,140 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'GetSystemWow64DirectoryW'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/dllmain.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Tools/pseudo-version-dll-master/src/dllmain.cpp"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 17,
+                  "endLine": 67,
+                  "endColumn": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`anonymous-namespace'::init",
+                  "decoratedName": "?init@?A0x6f170810@@YAXPAUHINSTANCE__@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.51.36246.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/dllmain.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b39d064c73defa2b62fb9dc984afd19b0179aa95f5fb53fd5b13089e981f418c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/common.hpp"
+          },
+          "hashes": {
+            "sha-256": "3d025f59d5c657a98d6883eda49dbf5355179bbdfd199a8e86b7687264b165c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/config.h"
+          },
+          "hashes": {
+            "sha-256": "5c909543bb433ac1ac03ee6d016cf3f121556f842d558b66b718811cd3058dab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/outputdebugstring.hpp"
+          },
+          "hashes": {
+            "sha-256": "e03230f4653d613c71d00d3ee6d818db723134e416afd51b1f6cc8f96fae77bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/version_dll.hpp"
+          },
+          "hashes": {
+            "sha-256": "d62beb5edcc2a1ce404cdd0fa5d1c681cce8b17e9966b58be5d47696758c1ad4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/lz32_dll.hpp"
+          },
+          "hashes": {
+            "sha-256": "ffff6d492d9a5b0523f455656c07f075ceffa12bb3b99529149397665597cd85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/hid_dll.hpp"
+          },
+          "hashes": {
+            "sha-256": "86ddea7237b99178575b59e489719a7099c263cdbc09f2162a881c1818a03d57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/msimg32_dll.hpp"
+          },
+          "hashes": {
+            "sha-256": "32413b607daa017f6d61a514c6bb010f32b068023e1026aa8cd5f61799f6349d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/plugin.hpp"
+          },
+          "hashes": {
+            "sha-256": "5cf2a2b467c7fa1093513362d1d9d4734e90ca3e900e9f504eae72d5fb2130b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/tools/pseudo-version-dll-master/src/minhook_api.hpp"
+          },
+          "hashes": {
+            "sha-256": "857787fe42ca8343e54069f0c8951a462c71e0b6cfb44e7276ded46d45c90397"
+          }
+        }
+      ]
+    }
+  ]
+}

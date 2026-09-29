@@ -1,0 +1,10 @@
+C:\Tools\pseudo-version-dll-master\src\dllmain.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\dllmain.obj
+C:\Tools\pseudo-version-dll-master\src\fake_api.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\fake_api.obj
+C:\Tools\pseudo-version-dll-master\src\hid_dll.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\hid_dll.obj
+C:\Tools\pseudo-version-dll-master\src\lz32_dll.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\lz32_dll.obj
+C:\Tools\pseudo-version-dll-master\src\minhook.c;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\minhook.obj
+C:\Tools\pseudo-version-dll-master\src\minhook_api.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\minhook_api.obj
+C:\Tools\pseudo-version-dll-master\src\msimg32_dll.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\msimg32_dll.obj
+C:\Tools\pseudo-version-dll-master\src\outputdebugstring.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\outputdebugstring.obj
+C:\Tools\pseudo-version-dll-master\src\plugin.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\plugin.obj
+C:\Tools\pseudo-version-dll-master\src\version_dll.cpp;C:\Tools\pseudo-version-dll-master\projects\vs2022\version\Win32\Debug\version_dll.obj
