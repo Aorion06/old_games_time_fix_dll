@@ -1,0 +1,15 @@
+﻿  dllmain.cpp
+  fake_api.cpp
+  hid_dll.cpp
+  lz32_dll.cpp
+  minhook_api.cpp
+  msimg32_dll.cpp
+  outputdebugstring.cpp
+  plugin.cpp
+  version_dll.cpp
+  Generating Code...
+  minhook.c
+C:\Tools\pseudo-version-dll-master\src\minhook.c(31,1): warning C4206: nonstandard extension used: translation unit is empty
+     Creating library C:\Tools\pseudo-version-dll-master\projects\vs2022\version\x64\Debug\version.lib and object C:\Tools\pseudo-version-dll-master\projects\vs2022\version\x64\Debug\version.exp
+dllmain.obj : error LNK2019: unresolved external symbol __imp_timeBeginPeriod referenced in function "void __cdecl `anonymous namespace'::init(struct HINSTANCE__ *)" (?init@?A0x6f170810@@YAXPEAUHINSTANCE__@@@Z)
+C:\Tools\pseudo-version-dll-master\projects\vs2022\version\x64\Debug\version.dll : fatal error LNK1120: 1 unresolved externals
